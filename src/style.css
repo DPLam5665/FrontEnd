@@ -1,0 +1,10 @@
+:root{
+    --pink: #FDA7DF; 
+    --blue: #70a1ff; 
+    --purple: #a55eea;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,15 @@
+ 
+ .headerbg{
+    background: linear-gradient(90deg, var(--pink) 50%, var(--blue) 50%);   
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    
+}
+.headerbg .header-text{
+    background: white;
+    height: auto;
+}

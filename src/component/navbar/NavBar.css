@@ -1,0 +1,49 @@
+
+.navbar{
+    background-color: antiquewhite ;
+    color:#d1d8e0;
+    padding: 15px 100px;
+}
+.navbar p{
+    margin-left: 5px;
+    color: #a55eea;
+    opacity: 1.2;
+    position: relative;
+    font-family: 'Nunito';
+    font-weight:bold;
+    font-size: 30pt;
+}
+.navbar p:after{
+    content: 'Bakery & Sweets   ';
+    color: #a55eea;
+    opacity: 1.2;
+    font-size: 10pt;
+    position: absolute;
+    top: 0;
+    left:0;
+    transform: translate(15% , 275%);
+}
+.navbar h5{
+    color: #a55eea;
+    opacity: 1.2;
+}
+.navbar .navigation{
+   font-size: 15pt;
+   margin-left: 40px;
+}
+
+.navbar .navigation li{
+    padding: 15px 30px;
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: 'Nunito';
+    flex-wrap: nowrap;
+ }
+ .navbar .navigation .nav-link{
+    color: #a55eea;
+ }
+ @media (max-width: 550px) {
+    .hideOnMobile{
+        display:none;
+    }
+ }
