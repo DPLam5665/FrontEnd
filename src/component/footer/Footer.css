@@ -4,5 +4,12 @@
     height: auto;
     bottom: 0;
     left: 0;
-    
+    display: flex;
+    justify-content: center  ;
+}
+.footer .footer-top{
+    width: 100%;
+}
+.footer .footer-top{
+    width: 100%;
 }
