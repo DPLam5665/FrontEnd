@@ -12,12 +12,13 @@ import Error from "./component/pages/Error/Error";
 import Bakery from "./component/pages/bakery/Bakery";
 import Sweet from "./component/pages/sweet/Sweet";
 import Footer from "./component/footer/Footer";
+import NavBar2 from "./component/navbar/NavBar2";
 
 function App() {
   return (
     <div className="App">
      
-         <Header/>
+         {/* <Header/>
           <div className="container"> 
             <Routes>
               <Route path="/home" element={<Home/>}/>
@@ -29,7 +30,11 @@ function App() {
               <Route path="/*" element={<Error/>}/>
             </Routes>
           </div>
-          <Footer/>    
+          <Footer/>     */}
+          
+     
+          <NavBar2/>
+             
     </div>
   );
 }
