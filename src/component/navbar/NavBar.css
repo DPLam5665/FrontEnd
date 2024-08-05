@@ -3,6 +3,7 @@
     background-color: antiquewhite ;
     color:#d1d8e0;
     padding: 15px 100px;
+    width: 1200px;
 }
 .navbar p{
     margin-left: 5px;
@@ -42,8 +43,11 @@
  .navbar .navigation .nav-link{
     color: #a55eea;
  }
- @media (max-width: 550px) {
+ @media only screen and (max-width: 550px) {
     .hideOnMobile{
-        display:none;
+        display: none;
+    }
+    .brand-logo{
+        
     }
  }

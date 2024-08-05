@@ -1,15 +1,23 @@
  
- .headerbg{
+ .header{
     background: linear-gradient(90deg, var(--pink) 50%, var(--blue) 50%);   
     width: 100%;
-    min-height: 100vh;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
     display: flex;
-    
+    flex-wrap: wrap;
+
 }
-.headerbg .header-text{
+.header .header-top{
     background: white;
-    height: auto;
+    height: 5%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1100px) {
+    .header .header-top{
+        width: 100%
+    }
 }

@@ -1,8 +1,23 @@
 .footer{
     background: lightblue;
-    width: 100%;
-    height: auto;
+    background-color: cover;
+    min-height: 400px;
     bottom: 0;
     left: 0;
-    
+    padding: 30px;
+    height: auto;
+}
+.footer .footer-top{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.footer .footer-top .col-footer{
+   width: 400px;
+}
+.footer .footer-bot .copyright{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
 }

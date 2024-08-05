@@ -23,13 +23,10 @@ function NavBar(args) {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    
+    <div>
       <Navbar className='navbar navbar-expand-xl sticky-lg-top fixed-top d-flex justify-content-center'{...args}>
-        <NavbarBrand href="/home" className='d-flex'>
-            <img src= {logo} width={80} />
-            <p className='hideOnMobile'>Polluxe</p>   
-        </NavbarBrand>
-        <NavbarToggler onClick={toggle} />
+      
+        <NavbarToggler className='collapse-menu' onClick={toggle} />
         <Collapse className='navbar-collapse ' isOpen={isOpen} navbar>
           <Nav className="navigation mx-auto d-flex " navbar>
             <NavItem>
@@ -66,7 +63,7 @@ function NavBar(args) {
           {/* <NavbarText>Simple Text</NavbarText> */}
         </Collapse>
       </Navbar>
-      
+      </div> 
     
   );
 }
