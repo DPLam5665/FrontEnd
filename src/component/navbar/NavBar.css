@@ -3,7 +3,7 @@
     background-color: antiquewhite ;
     color:#d1d8e0;
     padding: 15px 100px;
-    width: 1200px;
+    width: 100%;
 }
 .navbar p{
     margin-left: 5px;
@@ -34,7 +34,7 @@
 }
 
 .navbar .navigation li{
-    padding: 15px 30px;
+    padding: 0 30px;
     font-size: 15pt;
     font-weight: bold;
     font-family: 'Nunito';

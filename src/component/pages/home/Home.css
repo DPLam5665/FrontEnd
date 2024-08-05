@@ -1,3 +1,23 @@
 .home{
+    height: 500vh;
+    width: 100%;
+   text-align: center;
+}
+.home .carousel-slide{
+    
+}
+.home .carousel-bot{
+    padding-top: 20px;
+}
+.home .carousel-bot img{
+    width: 100%;
+}
+.home .test{
     height: 100vh;
+}
+.home h1{
+    font-family: 'Nunito';
+    font-weight: 800;
+    margin-top: 25px;
+    color:var(--purple);
 }

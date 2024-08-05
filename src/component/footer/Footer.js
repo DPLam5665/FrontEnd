@@ -11,71 +11,71 @@ export default function Footer() {
     <div className='footer container-fluid mx-auto '>
  
           <div>
-            <Row  className='footer-top'>
-                 <Col className='col-footer ms-5 me-2'xl={3} lg={3} md={6} sm={12}  ><img src={logo} width={40}/><h1></h1><LoremIpsum avgSentencesPerParagraph={2} p={2} /></Col>
-                 <Col className='col-footer ms-2' xl={3} lg={3} md={6} sm={12} > <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
+            <Row  className='footer-top d-flex'>
+                 <Col className='col-footer px-4 py-4'xl={3} lg={3} md={6} sm={12}  ><img src={logo} width={40}/><h1></h1><LoremIpsum avgSentencesPerParagraph={2} p={2} /></Col>
+                 <Col className='col-footer px-4 py-4' xl={3} lg={3} md={6} sm={12} > <h6 className='text-uppercase fw-bold mb-4'>Check out</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Angular
+                  Careers
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  React
+                  Press
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Vue
+                  Gift cards
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Laravel
+                  Subscription
                 </a>
               </p></Col>
-                <Col className='col-footer ms-2' xl={3} lg={3}  md={6} sm={12} >
-                <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+                <Col className='col-footer px-4 py-4' xl={3} lg={3}  md={6} sm={12} >
+                <h6 className='text-uppercase fw-bold mb-4 '>Customer Services</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Pricing
+                  Help center
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Settings
+                  Refunds and Return
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Orders
+                  Promotion terms
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Help
+                  Whole sale
                 </a>
               </p></Col>
-              <Col className='col-footer' xl={3} lg={3} md={6} sm={12}  >
-              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+              <Col className='col-footer px-4 py-4' xl={3} lg={3} md={6} sm={12}  >
+              <h6 className='text-uppercase fw-bold mb-4'>Other info</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  <FaHome/> Pricing
+                  <FaHome/> 2437, Marshal.st - 36.dis - San Fransokyo - Utopia 
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  <FaPhone/> Settings
+                  <FaPhone/> (-25) 443-5665-278
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  <MdEmail/> Orders
+                  <MdEmail/> thismail@VVmail.com
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  <CiGlobe/> Help
+                  <CiGlobe/> https://github.com/DPLam5665
                 </a>
               </p>
               </Col>

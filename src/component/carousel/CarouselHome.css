@@ -1,0 +1,10 @@
+.carousel-item, .carousel-item.active {
+    align-items:center;
+}
+.carousel-image{
+    height: 400px;
+}
+.carousel-caption{
+    font-family: 'Nunito';
+    color:brown;
+}
