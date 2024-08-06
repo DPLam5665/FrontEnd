@@ -4,7 +4,11 @@
     min-height: 400px;
     bottom: 0;
     left: 0;
+<<<<<<< HEAD
     
+=======
+    padding: 30px;
+>>>>>>> 469f4ea2bcaf4a46b9be1148c8b1f10050f38407
     height: auto;
     width: 100%;
 }

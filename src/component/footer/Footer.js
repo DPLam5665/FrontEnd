@@ -11,9 +11,15 @@ export default function Footer() {
     <div className='footer container-fluid mx-auto '>
  
           <div>
+<<<<<<< HEAD
             <Row  className='footer-top d-flex'>
                  <Col className='col-footer px-4 py-4'xl={3} lg={3} md={6} sm={12}  ><img src={logo} width={40}/><h1></h1><LoremIpsum avgSentencesPerParagraph={2} p={2} /></Col>
                  <Col className='col-footer px-4 py-4' xl={3} lg={3} md={6} sm={12} > <h6 className='text-uppercase fw-bold mb-4'>Check out</h6>
+=======
+            <Row  className='footer-top'>
+                 <Col className='col-footer ms-5 me-2'xl={3} lg={3} md={6} sm={12}  ><img src={logo} width={40}/><h1></h1><LoremIpsum avgSentencesPerParagraph={2} p={2} /></Col>
+                 <Col className='col-footer ms-2' xl={3} lg={3} md={6} sm={12} > <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
+>>>>>>> 469f4ea2bcaf4a46b9be1148c8b1f10050f38407
               <p>
                 <a href='#!' className='text-reset'>
                   Careers
@@ -34,8 +40,13 @@ export default function Footer() {
                   Subscription
                 </a>
               </p></Col>
+<<<<<<< HEAD
                 <Col className='col-footer px-4 py-4' xl={3} lg={3}  md={6} sm={12} >
                 <h6 className='text-uppercase fw-bold mb-4 '>Customer Services</h6>
+=======
+                <Col className='col-footer ms-2' xl={3} lg={3}  md={6} sm={12} >
+                <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+>>>>>>> 469f4ea2bcaf4a46b9be1148c8b1f10050f38407
               <p>
                 <a href='#!' className='text-reset'>
                   Help center
@@ -56,26 +67,46 @@ export default function Footer() {
                   Whole sale
                 </a>
               </p></Col>
+<<<<<<< HEAD
               <Col className='col-footer px-4 py-4' xl={3} lg={3} md={6} sm={12}  >
               <h6 className='text-uppercase fw-bold mb-4'>Other info</h6>
               <p>
                 <a href='#!' className='text-reset'>
                   <FaHome/> 2437, Marshal.st - 36.dis - San Fransokyo - Utopia 
+=======
+              <Col className='col-footer' xl={3} lg={3} md={6} sm={12}  >
+              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+              <p>
+                <a href='#!' className='text-reset'>
+                  <FaHome/> Pricing
+>>>>>>> 469f4ea2bcaf4a46b9be1148c8b1f10050f38407
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
+<<<<<<< HEAD
                   <FaPhone/> (-25) 443-5665-278
+=======
+                  <FaPhone/> Settings
+>>>>>>> 469f4ea2bcaf4a46b9be1148c8b1f10050f38407
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
+<<<<<<< HEAD
                   <MdEmail/> thismail@VVmail.com
+=======
+                  <MdEmail/> Orders
+>>>>>>> 469f4ea2bcaf4a46b9be1148c8b1f10050f38407
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
+<<<<<<< HEAD
                   <CiGlobe/> https://github.com/DPLam5665
+=======
+                  <CiGlobe/> Help
+>>>>>>> 469f4ea2bcaf4a46b9be1148c8b1f10050f38407
                 </a>
               </p>
               </Col>
