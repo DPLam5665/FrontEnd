@@ -12,15 +12,15 @@ import {
   Container,
   Row,
 } from "reactstrap";
+import baking from './baking.mp4'
 import wedding from "./wedding.jpg";
-
-
-
 export default function Home() {
+  AOS.init();
   return (
     <div className="home container-fluid">
-      <section>
-        
+      <section className="background-video">
+        <video src={baking} type="video/mp4" id="baking-background" autoPlay loop muted />
+   
       </section>
       <section className="carousel-slide w-100">
         <div className="carousel-product">
@@ -32,26 +32,26 @@ export default function Home() {
       <h1>Our Newest</h1>
       <div className="carousel-bot ">
             <Row className="my-2">
-              <Col lg={3} md={6} sm={12} className="my-2">
+              <Col lg={3} md={6} sm={12} className="my-2 "  data-aos="zoom-in">
                 <Card>
                 <img src={wedding}  />
                 <p>Sample</p>
                 </Card>
                 
               </Col>
-              <Col lg={3} md={6} sm={12} className="my-2">
+              <Col lg={3} md={6} sm={12} className="my-2"  data-aos="zoom-in">
               <Card>
                 <img src={wedding}  />
                 <p>Sample</p>
                 </Card>
               </Col>
-              <Col lg={3} md={6} sm={12} className="my-2">
+              <Col lg={3} md={6} sm={12} className="my-2"  data-aos="zoom-in">
               <Card>
                 <img src={wedding}  />
                 <p>Sample</p>
                 </Card>
               </Col>
-              <Col lg={3} md={6} sm={12} className="my-2">
+              <Col lg={3} md={6} sm={12} className="my-2"  data-aos="zoom-in">
               <Card>
                 <img src={wedding}  />
                 <p>Sample</p>

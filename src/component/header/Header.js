@@ -8,18 +8,18 @@ import NavBar2 from '../navbar/NavBar2'
 import { CiSearch, CiShoppingCart } from 'react-icons/ci'
 export default function Header() {
   return (
-    <>
+    <div className='sticky-top'>
      <div className='header align-items-center'>
       <Row className='header-top text-center'>
           <Col lg={12} md={12} sm={12}><MdDeliveryDining /> Get free shipping on Purchase above $1000/bill</Col>
       </Row>
       <div className='header-search w-100 d-flex justify-content-center align-content-center'>
-        <Row className='w-75 h-100  justify-content-between'>
+        <Row className='w-75 h-100  justify-content-between d-flex flex-sm-nowrap'>
               <Col lg={3} md={3} sm={3} className='d-flex justify-content-center align-items-center'>
               <img src= {logo} width={50} />
               <h1 className='hideOnMobile'>Polluxe</h1>
               </Col>
-              <Col lg={6} md={0} sm={6} className='d-flex justify-content-center align-items-center'>
+              <Col lg={6} md={6} sm={6} className='d-flex justify-content-center align-items-center'>
                 <InputGroup className='hideOnMobile'>
                   <Input/>
                   <Button><CiSearch /></Button>
@@ -28,7 +28,7 @@ export default function Header() {
               </Col> 
               
               <Col lg={3} md={3} sm={3} className='d-flex justify-content-center align-items-center nowrap'>
-                <Row>
+                <Row className='w-100 d-flex justify-content-center'>
                   <Col lg={1} md={1} sm={1}><MdOutlinePerson /></Col>
                   <Col lg={1} md={1} sm={1}><CiShoppingCart /></Col>
                   <Col lg={1} md={1} sm={1} className='showOnMobile'><CiSearch /></Col>
@@ -45,7 +45,7 @@ export default function Header() {
         </div>
      </Row>
     
-    </>
+    </div>
    
   )
 }

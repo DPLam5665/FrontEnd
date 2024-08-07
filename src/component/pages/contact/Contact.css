@@ -1,26 +1,78 @@
+.contact-banner{
+    width: 100%;
+    background-image: url('./background-confetti.webp');
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-banner h1{
+    
+}
 .contact-form{
     width: 100%;
-    min-height: 100vh;
-    padding: 50px auto;
+    min-height: 80vh;
+    height: auto;
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     flex-wrap: nowrap;
 }
-.contact-form h1{
+.contact-form h2{
     text-align: left;
-    margin-bot: 30px ;
+    font-family: 'nunito';
     color: var(--purple);
+    font-weight: 700;
+    
+}
+.contact-form label{
+    color: #e67e22;
+    margin: 10px auto;
+}
+.contact-form .contact input[type=text]{
+    height: 50px;
+    padding-top: 5px; 
+    padding-bottom: 5px ;
+    padding-left: 15px;
+    border: 2px solid  #e67e22;
+    font-family: 'nunito';
+}
+.contact-form .contact input[type=email]{
+    height: 50px;
+    padding-top: 5px; 
+    padding-bottom: 5px ;
+    padding-left: 15px;
+    border: 2px solid  #e67e22;
+    font-family: 'nunito';
+}
+.contact-form .contact textarea{
+    height: 100px;
+    padding-top: 5px; 
+    padding-bottom: 5px ;
+    padding-left: 15px;
+    border: 2px solid  #e67e22;
+    font-family: 'nunito';
+}
+.contact-form .contact button{
+    height: 60px;
+    padding-top: 5px; 
+    padding-bottom: 5px ;
+    padding-left: 15px;
+    font-family: 'nunito';
+    font-size: 20pt;
+    font-weight: 600;
+    background-color: var(--purple);
+    border: 2px solid  #e67e22;
+    color:white;
 }
 .contact-form .contact{
     /* border: 3px solid var(--pink);
     border-radius: 5px; */
     padding: 50px;
-    margin: 30px;
+    margin: 30px auto;
     width: 100%;
 }
 .contact-form .getInTouch{
-   
     padding: 50px;
-    margin: 30px;
+    margin: 30px auto;
     width: 100%;
 }

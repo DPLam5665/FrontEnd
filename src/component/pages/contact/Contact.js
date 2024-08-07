@@ -1,31 +1,46 @@
 import React from "react";
-import { Col, Form, FormGroup, Input, Label, Row } from "reactstrap";
+import { Button, Col, Form, FormGroup, Input, Label, Row } from "reactstrap";
 import "./Contact.css";
 export default function Contact() {
   return (
-    <div className="contact-form container-fluid">
-      <Row>
-        <Col lg={6} sm={12}>
+    <>
+      <div className="contact-banner">
+        <h1>Contact Us</h1>
+      </div>
+      <div className="contact-description">
+        
+      </div>
+      <div className="contact-form">
+      <Row className="w-100 " >
+        <Col lg={6} sm={12} >
           <FormGroup className="contact">
-            <h1>Send contact</h1>
+            <h2>Get In Touch</h2>
             <Label>
-              Email         
+              Name        
             </Label>
-            <Input type="text" placeholder="Email address" />
+            <Input type="text" placeholder="Enter your name" />
             <Label>
-              Password
-              <br />
-              <Input type="password" placeholder="password" />
+              Email*
             </Label>
+              <Input type="email" placeholder="Enter your email address" />
+              <Label>
+              Email
+            </Label>
+              <Input type="textarea" placeholder="Your message" />  
+            <Button className="w-100 mt-3">Send message</Button>
           </FormGroup>
+
         </Col>
         <Col lg={6} sm={12}>
         <div className="getInTouch">
-          <h1>Get in touch</h1>
+          <h2>FAQs</h2>
+          <span></span>
         </div>
           
         </Col>
       </Row>
     </div>
+    </>
+    
   );
 }

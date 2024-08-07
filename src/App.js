@@ -12,13 +12,24 @@ import Error from "./component/pages/Error/Error";
 import Bakery from "./component/pages/bakery/Bakery";
 import Sweet from "./component/pages/sweet/Sweet";
 import Footer from "./component/footer/Footer";
-
+import NavBar2 from "./component/navbar/NavBar2";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      // disable: "phone",
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+  }, []);
   return (
-    <div className="App">
+    <div>
      
          <Header/>
-          <div className="container"> 
+          <div> 
             <Routes>
               <Route path="/home" element={<Home/>}/>
               <Route path="/about" element={<About/>}/>
@@ -30,6 +41,7 @@ function App() {
             </Routes>
           </div>
           <Footer/>    
+          {/* <NavBar2/> */}
     </div>
   );
 }
