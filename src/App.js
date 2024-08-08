@@ -16,25 +16,26 @@ import NavBar2 from "./component/navbar/NavBar2";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+
 function App() {
   useEffect(() => {
     AOS.init({
-      once: true,
+      once: false,
       // disable: "phone",
       duration: 700,
       easing: "ease-out-cubic",
     });
   }, []);
+  AOS.init();
   return (
     <div>
-     
          <Header/>
           <div> 
             <Routes>
               <Route path="/home" element={<Home/>}/>
               <Route path="/about" element={<About/>}/>
               <Route path="/bakery" element={<Bakery/>}/>
-              <Route path="/sweet" element={<Sweet/>}/>
+              {/* <Route path="/sweet" element={<Sweet/>}/> */}
               <Route path="/shop" element={<Shop/>}/>
               <Route path="/contact" element={<Contact/>}/>
               <Route path="/*" element={<Error/>}/>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import logo from './logo.png'
+import logo from './logo2.png'
 import { Container, Row ,Col, Input, InputGroup, Button, Nav} from 'reactstrap'
 import NavBar from '../navbar/NavBar'
 import { MdDeliveryDining, MdOutlinePerson } from 'react-icons/md'
@@ -16,8 +16,8 @@ export default function Header() {
       <div className='header-search w-100 d-flex justify-content-center align-content-center'>
         <Row className='w-75 h-100  justify-content-between d-flex flex-sm-nowrap'>
               <Col lg={3} md={3} sm={3} className='d-flex justify-content-center align-items-center'>
-              <img src= {logo} width={50} />
-              <h1 className='hideOnMobile'>Polluxe</h1>
+              <img src= {logo} width={100} />
+              
               </Col>
               <Col lg={6} md={6} sm={6} className='d-flex justify-content-center align-items-center'>
                 <InputGroup className='hideOnMobile'>

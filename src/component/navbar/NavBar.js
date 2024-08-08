@@ -15,7 +15,7 @@ import {
   Container,
 } from 'reactstrap';
 import './NavBar.css'
-import logo from './logo.png'
+import logo from './logo2.png'
 import {Link} from 'react-router-dom'
 function NavBar(args) {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,7 +40,7 @@ function NavBar(args) {
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem><NavLink href='/bakery'>Bakery</NavLink></DropdownItem>
-                <DropdownItem><NavLink href='/sweet'>Sweet</NavLink></DropdownItem>
+                {/* <DropdownItem><NavLink href='/sweet'>Sweet</NavLink></DropdownItem> */}
                 <DropdownItem><NavLink href='/materials'>Materials & Tools</NavLink></DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>More options</DropdownItem>

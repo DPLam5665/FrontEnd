@@ -2,7 +2,7 @@ import React from 'react'
 import { Row,Col } from 'reactstrap'
 import {LoremIpsum, Avatar} from 'react-lorem-ipsum'
 import './Footer.css'
-import logo  from './logo.png'
+import logo  from './logo2.png'
 import { FaHome, FaPhone, FaRegCopyright } from "react-icons/fa";
 import { MdEmail } from 'react-icons/md'
 import { CiGlobe } from 'react-icons/ci'
