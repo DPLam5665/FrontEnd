@@ -2,17 +2,22 @@ import React from 'react'
 import { Row,Col } from 'reactstrap'
 import {LoremIpsum, Avatar} from 'react-lorem-ipsum'
 import './Footer.css'
-import logo  from './logo2.png'
-import { FaHome, FaPhone, FaRegCopyright } from "react-icons/fa";
+import logo  from './logo3.png'
+import { FaHome, FaPhone, FaPinterest, FaRegCopyright } from "react-icons/fa";
 import { MdEmail } from 'react-icons/md'
-import { CiGlobe } from 'react-icons/ci'
+import { CiFacebook, CiGlobe, CiInstagram } from 'react-icons/ci'
+import { BsTwitterX } from "react-icons/bs";
 export default function Footer() {
   return (
     <div className='footer container-fluid mx-auto '>
  
           <div>
             <Row  className='footer-top d-flex'>
-                 <Col className='col-footer px-4 py-4'xl={3} lg={3} md={6} sm={12}  ><img src={logo} width={40}/><h1></h1><LoremIpsum avgSentencesPerParagraph={2} p={2} /></Col>
+                 <Col className='col-footer px-4 py-4'xl={3} lg={3} md={6} sm={12}  ><span className='d-flex justify-content-center justify-content-lg-start ps-lg-3 p'><img src={logo} width={200} /></span>
+                    <h5 className='py-2'>Have a question?</h5>
+                    <p className='pb-2'>Feel free to ask us on our official media</p>
+                    <div className='footer-media-icons '><CiFacebook className='mx-2'/><BsTwitterX className='mx-2'/><CiInstagram className='mx-2'/><FaPinterest className='mx-2'/></div>
+                 </Col>
                  <Col className='col-footer px-4 py-4' xl={3} lg={3} md={6} sm={12} > <h6 className='text-uppercase fw-bold mb-4'>Check out</h6>
               <p>
                 <a href='#!' className='text-reset'>

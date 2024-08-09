@@ -6,9 +6,18 @@
 }
 
 .carousel-caption{
+    display: flex;
+    justify-content: center;
+}
+.carousel-caption h3{
     font-family: 'Nunito';
-    color:brown;
-
+    color:var(--purple);
+    font-weight: 700;
+    font-size: 35pt;
+    backdrop-filter: blur(15px) ;
+    background: url('background-confetti.webp');
+    width: auto;
+    
 }
 .carousel-control-prev{
     background-color: rgba(255,255,255, 0.1);

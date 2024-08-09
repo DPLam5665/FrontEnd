@@ -1,15 +1,18 @@
  
  .header{
     /* background: linear-gradient(90deg, var(--pink) 50%, var(--blue) 50%);    */
-    background: var(--blue);
+    background: antiquewhite;
     width: 100%;
-    height: 100px;
+    height: fit-content;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
     
+}
+.header .header-search{
+    border-bottom: 2px solid burlywood;
 }
 .header .header-search h1{
     font-family: 'Nunito';
@@ -28,11 +31,32 @@
 .header .header-top .header-search .showOnMobile{
     display: none;
 }
+.header .header-search .search-box input[type='text']{
+    border: 2px solid  #e67e22;
+    border-right: none;
+    
+}
+.header .header-search .search-box button{
+    background-color: var(--purple);
+    border: 2px solid  #e67e22;
+    border-left: none;
+    width: 15%;
+}
 @media only screen and (max-width: 1100px) {
-    .hideOnMobile{
+    /* .hideOnMobile{
         display: none;
     }
     .showOnMobile{
         display: block;
+    } */
+}
+@media only screen and (max-width: 990px){
+    .header .header-search{
+        height: fit-content;
+    }
+}
+@media only screen and (max-width: 400px){
+    .hideOnXS{
+        display: none;
     }
 }

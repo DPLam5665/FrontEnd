@@ -24,9 +24,9 @@ export default function Contact() {
             </Label>
               <Input type="email" placeholder="Enter your email address" />
               <Label>
-              Email
+              Message
             </Label>
-              <Input type="textarea" placeholder="Your message" />  
+              <Input type="textarea" placeholder="Enter your message" />  
             <Button className="w-100 mt-3">Send message</Button>
           </FormGroup>
 

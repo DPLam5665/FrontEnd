@@ -13,19 +13,19 @@ const items = [
   {
     src: 'https://st2.depositphotos.com/11700927/44959/i/450/depositphotos_449595794-stock-photo-flour-wheat-eggs-rolling-pin.jpg',
     altText: 'Slide 1',
-    caption: 'Baking and Kitchen Tools',
+    caption: 'Flour and Raw Ingredients',
     key: 1,
   },
   {
     src: 'https://www.shutterstock.com/image-photo/various-sweets-desserts-set-collection-600nw-2343752481.jpg',
     altText: 'Slide 2',
-    caption: 'Flour and Raw Ingredients',
+    caption: 'Various type of Bakeries and Sweets',
     key: 2,
   },
   {
     src: 'https://www.shutterstock.com/image-illustration/set-baking-tools-kitchen-utensils-600nw-2245159591.jpg',
     altText: '',
-    caption: 'Various type of Bakery and Sweets',
+    caption: 'Baking and Kitchen Tools',
     key: 3,
   },
 ];

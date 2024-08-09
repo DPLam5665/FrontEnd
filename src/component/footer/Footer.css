@@ -1,10 +1,10 @@
 .footer{
-    background: lightblue;
+    background: burlywood;
     background-color: cover;
     min-height: 400px;
     bottom: 0;
     left: 0;
-    
+    margin-top: 50px;
     height: auto;
     width: 100%;
 }

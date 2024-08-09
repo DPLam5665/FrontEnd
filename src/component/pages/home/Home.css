@@ -1,14 +1,19 @@
 .home{
-    height: 500vh;
+    min-height: 300vh;
+    height: fit-content;
     width: 100%;
    text-align: center;
 }
-
 .home .carousel-slide{
     
 }
 .home .carousel-bot{
     padding-top: 20px;
+    color: var(--purple);
+}
+.home .carousel-bot .card{
+    border:2px solid var(--purple);
+    margin-bottom: 10px;
 }
 .home .carousel-bot img{
     width: 100%;
@@ -23,9 +28,62 @@
 .home .test{
     height: 100vh;
 }
-.home h1{
-    font-family: 'Nunito';
+.home .banner1 h1{
+    font-family: 'nunito',serif;
     font-weight: 800;
-    margin-top: 25px;
-    color:var(--purple);
+    color:var(--logoColor);
+    font-size: 40pt;
+}
+.home .banner1{
+    width: 100%;
+    min-height: fit-content;
+    background-image: url('./background-confetti.webp');
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid burlywood;
+}
+.home .ourProducts{
+    background: burlywood;
+}
+.home .extra-link{
+    color: var(--purple);
+    position: relative;
+    width:fit-content;
+    align-self: center;
+}
+.home .extra-link:after{
+    content:'';
+    background: var(--purple);
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+.home .delivery-banner .card {
+    display: flex;
+}
+.home .delivery-banner .card .img{
+    width: 100%;
+}
+.home .delivery-banner .card h3{
+    color: var(--purple);
+    font-family: 'nunito';
+    font-weight: 600;
+    margin: 10px;
+}
+.home .delivery-banner .card p{
+    color: black;
+    font-family: 'nunito';
+    font-weight: 600;
+    margin: 10px;
+}
+@media only screen  and (width <= 600px){
+    .home .delivery-banner .card .img{
+        width: 100%;
+        
+    }
 }

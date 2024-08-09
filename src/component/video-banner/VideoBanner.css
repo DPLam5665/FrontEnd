@@ -11,7 +11,12 @@ video{
    width: 100%;
    height: 100%;
     opacity: 2;
-
+    filter: grayscale(0.7);
+    filter: brightness(30%);
+    filter: blur(5px);
+ }
+ .background-video{
+    position: relative;
  }
 .video-banner{
     position: absolute;
@@ -22,4 +27,49 @@ video{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.video-banner h1{
+    font-family: 'Roboto Slab',serif;
+    font-size: 50pt;
+    top: 50% ;
+    margin: 15px auto;
+    color: #B81D33;
+    border-bottom: #B81D33 solid 2px;
+}
+.video-banner hr{
+    width:80%;
+    border-top  : #B81D33 solid 4px ;
+}
+.video-banner p{
+    font-family: 'Roboto Slab';
+    margin: 15px auto;
+    top: 60% ;
+    color: #B81D33;
+    font-size: 18pt;
+}
+@media only screen and (min-width:300px){
+    .hideVidBanner1{
+        display: none;
+    }
+    .hideVidBanner2{
+        display: none;
+    }
+}
+@media only screen and (min-width:600px){
+    .hideVidBanner1{
+        display: block;
+    }
+    .hideVidBanner2{
+        display: none;
+    }
+}
+@media only screen and (min-width:1000px){
+    .hideVidBanner2{
+        display: block;
+    }
+}
+@media only screen and (min-width:1000px){
+    .back-ground-video{
+        display: block;
+    }
 }

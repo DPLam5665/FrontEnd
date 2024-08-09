@@ -15,7 +15,7 @@ import {
   Container,
 } from 'reactstrap';
 import './NavBar.css'
-import logo from './logo2.png'
+import logo from './logo3.png'
 import {Link} from 'react-router-dom'
 function NavBar(args) {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +24,7 @@ function NavBar(args) {
 
   return (
     
-      <Navbar expand='xl' className='navbar navbar d-flex justify-content-center'{...args}>
+      <Navbar expand='xl' className='navbar d-flex justify-content-center'{...args}>
         <NavbarToggler className='collapse-menu' onClick={toggle} />
         <Collapse className='navbar-collapse ' isOpen={isOpen} navbar>
           <Nav className="navigation mx-auto d-flex " navbar>
