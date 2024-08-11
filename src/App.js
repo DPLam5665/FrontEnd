@@ -33,7 +33,7 @@ function App() {
   return (
     <div>
       <HashRouter>
-      <Switch>
+ 
       <Header/>
           <div> 
             
@@ -50,7 +50,7 @@ function App() {
           </div>
           <Footer/>    
           {/* <NavBar2/> */}
-          </Switch>
+          
       </HashRouter>
         
     </div>
