@@ -12,9 +12,9 @@ export default function Contact() {
       </div>
       <div className="contact-form">
       <Row className="w-100 " >
-        <Col lg={6} sm={12} >
+        <Col lg={12} sm={12} >
           <FormGroup className="contact">
-            <h2>Get In Touch</h2>
+            <h2 className="text-center">Get In Touch</h2>
             <Label>
               Name        
             </Label>
@@ -31,13 +31,13 @@ export default function Contact() {
           </FormGroup>
 
         </Col>
-        <Col lg={6} sm={12}>
-        <div className="getInTouch">
-          <h2>FAQs</h2>
-          <span></span>
-        </div>
-          
-        </Col>
+          {/* <Col lg={6} sm={12}>
+          <div className="getInTouch">
+            <h2>FAQs</h2>
+            <span></span>
+          </div>
+            
+          </Col> */}
       </Row>
     </div>
     </>

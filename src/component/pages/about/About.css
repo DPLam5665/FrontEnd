@@ -1,0 +1,33 @@
+.about{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+}
+.about .about-banner{
+    width: 100%;
+    background-image: url('./background-confetti.webp');
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about .about-banner h1{
+    font-family: 'nunito',serif;
+    font-weight: 800;
+    color:var(--logoColor);
+    font-size: 40pt;
+}
+.about img{
+    max-width: 600px;
+    width: 425px;
+    margin: 10px;
+    align-self: center  ;
+    max-height: 300px;
+}
+.about h2{
+    color: var(--purple);
+}
+.about .about-description{
+    border: 2px solid #e67e22;
+    border-radius: 10px;
+}
