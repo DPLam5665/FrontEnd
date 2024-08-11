@@ -3,7 +3,7 @@ import NavBar from "./component/navbar/NavBar";
 import './style.css'
 import Header from "./component/header/Header";
 import './App.css'
-import {Routes, Route, BrowserRouter, HashRouter} from 'react-router-dom'
+import {Routes, Route, BrowserRouter, HashRouter, Switch} from 'react-router-dom'
 import Home from "./component/pages/home/Home";
 import About from "./component/pages/about/About";
 import Shop from "./component/pages/shop/Shop";
