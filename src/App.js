@@ -1,9 +1,8 @@
-
 import NavBar from "./component/navbar/NavBar";
-import './style.css'
+import "./style.css";
 import Header from "./component/header/Header";
-import './App.css'
-import {Routes, Route, HashRouter} from 'react-router-dom'
+import "./App.css";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./component/pages/home/Home";
 import About from "./component/pages/about/About";
 import Shop from "./component/pages/shop/Shop";
@@ -19,7 +18,6 @@ import { useEffect } from "react";
 import Materials from "./component/pages/materials/Materials";
 import Products from "./component/pages/bakery/Products";
 
-
 function App() {
   useEffect(() => {
     AOS.init({
@@ -32,27 +30,22 @@ function App() {
   AOS.init();
   return (
     <div>
-     <HashRouter>
- 
-      <Header/>
-          <div> 
-            
-            <Routes>
-              <Route path="/home" element={<Home/>}/>
-              <Route path="/about" element={<About/>}/>
-              <Route path="/bakery" element={<Products/>}/>
-              <Route path="/materials" element={<Materials/>}/>
-              <Route path="/shop" element={<Shop/>}/>
-              <Route path="/contact" element={<Contact/>}/>
-              <Route path="/*" element={<Error/>}/>
-            </Routes>
-           
-          </div>
-          <Footer/>    
-          {/* <NavBar2/> */}
-          
-          </HashRouter>
-        
+      <HashRouter>
+        <Header />
+        <div>
+          <Routes>
+            <Route path="/home" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/bakery" element={<Products />} />
+            <Route path="/materials" element={<Materials />} />
+            <Route path="/shop" element={<Shop />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/*" element={<Error />} />
+          </Routes>
+        </div>
+        <Footer />
+        {/* <NavBar2/> */}
+      </HashRouter>
     </div>
   );
 }

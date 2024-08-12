@@ -20,10 +20,10 @@ const Product = ({ p }) => {
     
     <div className="col">
       <div class="card h-100">
-        <img src={ProductsSlice.picture} class="card-img-top h-75" alt="..." />
+        <img src={product.picture} class="card-img-top h-75" alt="..." />
         <div class="card-body">
-          <h4 class="card-title">{ProductsSlice.name}</h4>
-          <h5 class="">${ProductsSlice.price}</h5>
+          <h4 class="card-title">{product.name}</h4>
+          <h5 class="">${product.price}</h5>
           <button
             class="btn btn-primary"
             onClick={() => dispatch({ type: "Add", product: product })}
