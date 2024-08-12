@@ -34,8 +34,8 @@ const Products = () => {
         product && product.map((item, index)=>(
           
             <Col lg={3} md={6} sm={12} key={index} className="my-4">
-            <div class="card h-auto" data-aos="zoom-in">
-              <img src={item.picture} class="card-img-top h-75" alt="..." />
+            <div class="card h-100" data-aos="zoom-in">
+              <img src={item.picture} class="card-img-top" height={200} alt="..." />
               <div class="card-body">
                 <h4 class="card-title text-center">{item.product}</h4>
                 <h5 class="text-center">${item.price}</h5>

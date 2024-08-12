@@ -18,6 +18,10 @@
 .product-cards .card{
     border: 2px solid var(--purple);
 }
+.product-cards  img{
+    width: 100%;
+    height: 200px;
+}
 .product-cards h4{
     color:var(--logoColor);
 }
