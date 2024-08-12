@@ -32,7 +32,7 @@ function App() {
   AOS.init();
   return (
     <div>
-      <HashRouter>
+     <BrowserRouter>
  
       <Header/>
           <div> 
@@ -51,7 +51,7 @@ function App() {
           <Footer/>    
           {/* <NavBar2/> */}
           
-      </HashRouter>
+          </BrowserRouter>
         
     </div>
   );

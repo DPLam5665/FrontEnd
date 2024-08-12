@@ -10,7 +10,7 @@ export default function Contact() {
       <div className="contact-description">
         
       </div>
-      <div className="contact-form">
+      <div className="contact-form container">
       <Row className="w-100 " >
         <Col lg={12} sm={12} >
           <FormGroup className="contact">
