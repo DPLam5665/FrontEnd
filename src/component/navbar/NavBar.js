@@ -29,28 +29,28 @@ function NavBar(args) {
         <Collapse className='navbar-collapse ' isOpen={isOpen} navbar>
           <Nav className="navigation mx-auto d-flex " navbar>
             <NavItem>
-              <NavLink href="/home">Home</NavLink>
+              <NavLink href="#/home">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/about">About us</NavLink>
+              <NavLink href="#/about">About us</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                  Category
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem><NavLink href='/bakery'>Bakery</NavLink></DropdownItem>
+                <DropdownItem><NavLink href='#/bakery'>Bakery</NavLink></DropdownItem>
                 {/* <DropdownItem><NavLink href='/sweet'>Sweet</NavLink></DropdownItem> */}
-                <DropdownItem><NavLink href='/materials'>Materials & Tools</NavLink></DropdownItem>
+                <DropdownItem><NavLink href='#/materials'>Materials & Tools</NavLink></DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>More options</DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink href="/shop">Shops</NavLink>
+              <NavLink href="#/shop">Shops</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/contact">Contact</NavLink>
+              <NavLink href="#/contact">Contact</NavLink>
             </NavItem>
             {/* <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">
