@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/FrontEnd/static/css/main.1827dd31.css",
-    "main.js": "/FrontEnd/static/js/main.6eca2a8b.js",
+    "main.css": "/FrontEnd/static/css/main.58a97640.css",
+    "main.js": "/FrontEnd/static/js/main.34951538.js",
     "static/media/baking.mp4": "/FrontEnd/static/media/baking.09aabfda1e38bf04ab71.mp4",
     "static/media/cakes.webp": "/FrontEnd/static/media/cakes.f871d0cad1330159f2b6.webp",
     "static/media/ingredient.jpg": "/FrontEnd/static/media/ingredient.3d6c579dc296cd27db68.jpg",
     "static/media/logo3.png": "/FrontEnd/static/media/logo3.80fd84aee996d306c1c2.png",
     "static/media/background-confetti.webp": "/FrontEnd/static/media/background-confetti.3b9db7e1be346acd82b3.webp",
     "index.html": "/FrontEnd/index.html",
-    "main.1827dd31.css.map": "/FrontEnd/static/css/main.1827dd31.css.map",
-    "main.6eca2a8b.js.map": "/FrontEnd/static/js/main.6eca2a8b.js.map"
+    "main.58a97640.css.map": "/FrontEnd/static/css/main.58a97640.css.map",
+    "main.34951538.js.map": "/FrontEnd/static/js/main.34951538.js.map"
   },
   "entrypoints": [
-    "static/css/main.1827dd31.css",
-    "static/js/main.6eca2a8b.js"
+    "static/css/main.58a97640.css",
+    "static/js/main.34951538.js"
   ]
 }
